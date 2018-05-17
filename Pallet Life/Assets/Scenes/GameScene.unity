@@ -206,6 +206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a63e7b083ebf7134aa1da09f99cf02a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 284531754}
+  rotationSpeed: {x: 0.1, y: 0.2}
+  reverse: 1
 --- !u!1 &301242080
 GameObject:
   m_ObjectHideFlags: 0
