@@ -6,8 +6,10 @@ public class SproutGenerator : MonoBehaviour {
 
     public GameObject sproutPrefab;
 
-	// Use this for initialization
-	void Start () {
+    bool flag = false;
+
+    // Use this for initialization
+    void Start () {
 		
     }
 	
@@ -18,7 +20,12 @@ public class SproutGenerator : MonoBehaviour {
 
     void OnCollisionEnter(Collision other)
     {
+        if(flag==false)
+        {
             GameObject sprout = Instantiate(sproutPrefab) as GameObject;
             sprout.transform.position = new Vector3(1.6f, 0.7f, 10);
+
+            flag = true;
+        }
     }
 }

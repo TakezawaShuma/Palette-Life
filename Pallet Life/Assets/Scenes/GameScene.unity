@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 602037041}
   m_Layer: 0
   m_Name: Leaf_l
-  m_TagString: Untagged
+  m_TagString: Sprout
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -702,7 +702,7 @@ GameObject:
   - component: {fileID: 897743748}
   m_Layer: 0
   m_Name: SproutGenerator
-  m_TagString: Untagged
+  m_TagString: Sprout
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -982,7 +982,7 @@ GameObject:
   - component: {fileID: 1343570910}
   m_Layer: 0
   m_Name: Leaf_r
-  m_TagString: Untagged
+  m_TagString: Sprout
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1215,7 +1215,7 @@ GameObject:
   - component: {fileID: 1763128510}
   m_Layer: 0
   m_Name: Sprout
-  m_TagString: Untagged
+  m_TagString: Sprout
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
