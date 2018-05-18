@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 471}
   m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 78
+  controlID: 55
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 471}
   m_MaxSize: {x: 18008, y: 14021}
   vertical: 1
-  controlID: 138
+  controlID: 11
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 471}
   m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
-  controlID: 139
+  controlID: 12
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 769
-    height: 307
+    height: 301
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
@@ -250,9 +250,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 307
+    y: 301
     width: 769
-    height: 280
+    height: 286
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
@@ -369,7 +369,7 @@ MonoBehaviour:
     x: 0
     y: 92
     width: 767
-    height: 286
+    height: 280
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
   lastFramingTime: 1867.5287131292382
@@ -403,9 +403,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.033703223, y: -0.7109432, z: 0.034152117, w: 0.7016173}
+    m_Target: {x: 0.11924778, y: -0.08743817, z: 0.010547282, w: 0.9889585}
     speed: 2
-    m_Value: {x: 0.033703066, y: -0.71093994, z: 0.034151956, w: 0.701614}
+    m_Value: {x: 0.119246855, y: -0.087437496, z: 0.0105472, w: 0.9889508}
   m_Size:
     m_Target: 8.306306
     speed: 2
@@ -445,8 +445,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
-    width: 819
-    height: 363
+    width: 767
+    height: 280
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper: []
@@ -488,8 +488,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
-    width: 757
-    height: 422
+    width: 767
+    height: 280
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -514,9 +514,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 399
+    y: 393
     width: 767
-    height: 259
+    height: 265
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -547,24 +547,24 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 767
-      height: 242
-    m_Scale: {x: 0.31510416, y: 0.31510416}
-    m_Translation: {x: 383.5, y: 121}
+      height: 248
+    m_Scale: {x: 0.32291666, y: 0.32291666}
+    m_Translation: {x: 383.5, y: 124}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1217.0579
+      x: -1187.6129
       y: -384
-      width: 2434.1157
+      width: 2375.2258
       height: 768
     m_MinimalGUI: 1
-  m_defaultScale: 0.31510416
+  m_defaultScale: 0.32291666
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 767, y: 259}
+  m_LastWindowPixelSize: {x: 767, y: 265}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -597,9 +597,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9488ffff
-    m_LastClickedID: -30572
-    m_ExpandedIDs: 9efbffff00000000682800008a280000
+    m_SelectedIDs: fe8afeff
+    m_LastClickedID: -95490
+    m_ExpandedIDs: dac6ffff9efbffff00000000682800008a280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,19 +688,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Materials
   m_LastFoldersGridSize: 56
   m_LastProjectPath: "C:\\Users\\s172165\\Desktop\\2\u5E74\u751F_GS3\\\u524D\u671F\\\u30B2\u30FC\u30E0\u30A8\u30F3\u30B8\u30F3II\\CESA\\Pallet
     Life"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8e270000
-    m_LastClickedID: 10126
+    m_SelectedIDs: e8270000
+    m_LastClickedID: 10216
     m_ExpandedIDs: 000000008427000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -781,6 +781,6 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 403}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 56
   m_DirectoriesAreaWidth: 110

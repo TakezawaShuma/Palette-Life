@@ -6,7 +6,8 @@ public class SproutGenerator : MonoBehaviour {
 
     public GameObject sproutPrefab;
 
-    bool flag = false;
+    int sproutNum = 0;
+    int maxSprout = 2;
 
     // Use this for initialization
     void Start () {
@@ -20,12 +21,20 @@ public class SproutGenerator : MonoBehaviour {
 
     void OnCollisionEnter(Collision other)
     {
-        if(flag==false)
+        if(sproutNum < maxSprout)
         {
             GameObject sprout = Instantiate(sproutPrefab) as GameObject;
             sprout.transform.position = new Vector3(1.6f, 0.7f, 10);
 
-            flag = true;
+            sproutNum++;
+
+            if (sproutNum == 1)
+            {
+                GameObject sprouts = Instantiate(sproutPrefab) as GameObject;
+                sprouts.transform.position = new Vector3(-1.84f, 0.7f, 10);
+
+                sproutNum++;
+            }
         }
     }
 }
