@@ -23,15 +23,15 @@ public class SproutGenerator : MonoBehaviour {
     {
         if(sproutNum < maxSprout)
         {
-            GameObject sprout = Instantiate(sproutPrefab) as GameObject;
-            sprout.transform.position = new Vector3(1.6f, 0.7f, 10);
+            GameObject sproutR = Instantiate(sproutPrefab) as GameObject;
+            sproutR.transform.position = new Vector3(1.6f, 0.7f, 10);
 
             sproutNum++;
 
             if (sproutNum == 1)
             {
-                GameObject sprouts = Instantiate(sproutPrefab) as GameObject;
-                sprouts.transform.position = new Vector3(-1.84f, 0.7f, 10);
+                GameObject sproutL = Instantiate(sproutPrefab) as GameObject;
+                sproutL.transform.position = new Vector3(-1.84f, 0.7f, 10);
 
                 sproutNum++;
             }
